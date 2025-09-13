@@ -1,0 +1,5 @@
+@import "./atomic/organism/admin-painel.css";
+@import "./atomic/molecules/catalog-grid.css";
+@import "./atomic/organism/header.css";
+@import "./atomic/organism/footer.css";
+@import "./atomic/atoms/button.css";

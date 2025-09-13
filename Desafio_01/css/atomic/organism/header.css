@@ -1,0 +1,72 @@
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-image: linear-gradient(#a1a0a080, rgba(63, 60, 60, 0.5)),
+    url("https://get.pxhere.com/photo/shelving-bookcase-shelf-book-library-publication-bookselling-furniture-public-library-collection-building-cyclone-retail-self-help-book-book-cover-1612794.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 80vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.header_content {
+  text-align: center;
+  padding: 20px;
+  max-width: 500px;
+}
+/* ESTILO DO TITÚLO */
+.header_title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+/* ESTILO DO SUBTITÚLO */
+.header_subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.button_header {
+  display: inline-block;
+  padding: 12px 28px;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button_header--primary {
+  background-color: #d0cece;
+  color: #000000;
+  border: none;
+}
+
+.button_header--primary:hover {
+  background-color: rgb(62, 127, 207);
+  transform: translateY(-3px); /* Efeito de "levantar" ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+  .header_title {
+    font-size: 2.5rem;
+  }
+
+  .header_subtitle {
+    font-size: 1.2rem;
+  }
+}
